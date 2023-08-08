@@ -394,7 +394,7 @@ This is an optional feature and only applicable if you are using your own DNS se
 
 ## Linking Hub Private DNS Zone
 
-This module facilitates linking the spoke VNet to private DNS, preferably created by the Spoke Module. To create a link to a private DNS zone, providet the domain name of the private DNS zone to the `private_dns_zones` argument. If you want to link multiple private DNS zones, provide the list of DNS Zones to the `private_dns_zones` argument like this: `private_dns_zones = ["privatelink.blob.core.windows.net", "privatelink.file.core.windows.net"]`  
+This module facilitates linking the spoke VNet to private DNS, preferably created by the Spoke Module. To create a link to a private DNS zone, provide the domain name of the private DNS zone to the `private_dns_zones` argument. If you want to link multiple private DNS zones, provide the list of DNS Zones to the `private_dns_zones` argument like this: `private_dns_zones = ["privatelink.blob.core.windows.net", "privatelink.file.core.windows.net"]`  
 
 ## Recommended naming and tagging conventions
 
